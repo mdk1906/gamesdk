@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target 'MHTSDKTest’ do
+
+use_frameworks!
+end

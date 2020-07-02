@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GreenFruitModifyBoundPhoneViewBlackCustomControl">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MdX-Xc-Wl6">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uy8-1y-Bqr">
+                    <rect key="frame" x="70" y="20" width="160" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="226-TD-hPU"/>
+                        <constraint firstAttribute="width" constant="160" id="vhN-ET-hpJ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev1-iA-FxT">
+                    <rect key="frame" x="20" y="181" width="260" height="40"/>
+                    <color key="backgroundColor" red="0.53333333329999999" green="0.74117647060000003" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="I2R-RM-3Nd"/>
+                    </constraints>
+                    <state key="normal" title="修改手机号">
+                        <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ensureMethod:" destination="iN0-l3-epB" eventType="touchUpInside" id="HL7-BB-mel"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojq-LN-nJi">
+                    <rect key="frame" x="260" y="30" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="IQO-C4-Bat"/>
+                        <constraint firstAttribute="height" constant="20" id="Mn6-Zw-Vh9"/>
+                    </constraints>
+                    <state key="normal" image="Orange关闭_2.png">
+                        <color key="titleColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="closeViewMethod:" destination="iN0-l3-epB" eventType="touchUpInside" id="gdM-DZ-uJO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的绑定手机号码为：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1V-Xn-FBA">
+                    <rect key="frame" x="20" y="100" width="260" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="2RA-wv-lWl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DST-I0-PC1">
+                    <rect key="frame" x="20" y="28" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="uNx-kg-y6W"/>
+                        <constraint firstAttribute="width" constant="24" id="xJ3-cZ-jAK"/>
+                    </constraints>
+                    <state key="normal" image="Orange返回_2.png"/>
+                    <connections>
+                        <action selector="returnBtnMethod:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ki4-f1-Lgs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ojq-LN-nJi" firstAttribute="centerY" secondItem="uy8-1y-Bqr" secondAttribute="centerY" id="0Q9-Zj-Wsa"/>
+                <constraint firstAttribute="trailing" secondItem="ojq-LN-nJi" secondAttribute="trailing" constant="20" id="2KA-RT-nP3"/>
+                <constraint firstItem="uy8-1y-Bqr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="3ep-XA-MsG"/>
+                <constraint firstAttribute="trailing" secondItem="ev1-iA-FxT" secondAttribute="trailing" constant="20" id="3od-GE-fnO"/>
+                <constraint firstItem="y1V-Xn-FBA" firstAttribute="top" secondItem="uy8-1y-Bqr" secondAttribute="bottom" constant="40" id="6X3-xi-dwS"/>
+                <constraint firstItem="MdX-Xc-Wl6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SmJ-7Y-gBb"/>
+                <constraint firstAttribute="bottom" secondItem="MdX-Xc-Wl6" secondAttribute="bottom" id="ZCD-B5-RYP"/>
+                <constraint firstItem="MdX-Xc-Wl6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zad-c6-wND"/>
+                <constraint firstItem="ev1-iA-FxT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="a7Y-oA-hbl"/>
+                <constraint firstAttribute="trailing" secondItem="MdX-Xc-Wl6" secondAttribute="trailing" id="fqW-3q-RJa"/>
+                <constraint firstItem="y1V-Xn-FBA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="gvf-mG-G28"/>
+                <constraint firstItem="DST-I0-PC1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="jaj-Xx-X6q"/>
+                <constraint firstAttribute="trailing" secondItem="y1V-Xn-FBA" secondAttribute="trailing" constant="20" id="lVs-Aa-YL3"/>
+                <constraint firstItem="uy8-1y-Bqr" firstAttribute="centerY" secondItem="DST-I0-PC1" secondAttribute="centerY" id="n1o-6O-Y4I"/>
+                <constraint firstItem="uy8-1y-Bqr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="pho-z0-jsD"/>
+                <constraint firstItem="ev1-iA-FxT" firstAttribute="top" secondItem="y1V-Xn-FBA" secondAttribute="bottom" constant="60" id="x8b-jm-lcU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="closeViewBtn" destination="ojq-LN-nJi" id="mZx-y1-fa9"/>
+                <outlet property="infoLabel" destination="y1V-Xn-FBA" id="33K-hE-XBt"/>
+                <outlet property="loginImageView" destination="uy8-1y-Bqr" id="Ffm-31-nJM"/>
+                <outlet property="modifyBtn" destination="ev1-iA-FxT" id="eSj-bH-okV"/>
+                <outlet property="returnBtn" destination="DST-I0-PC1" id="PJQ-Ve-mps"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Orange关闭_2.png" width="16" height="16"/>
+        <image name="Orange返回_2.png" width="16" height="16"/>
+    </resources>
+</document>

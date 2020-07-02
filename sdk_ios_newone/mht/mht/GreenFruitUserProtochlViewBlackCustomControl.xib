@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GreenFruitUserProtochlViewBlackCustomControl">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="512-nc-jKV">
+                    <rect key="frame" x="0.0" y="69" width="375" height="598"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QNn-ut-pez">
+                    <rect key="frame" x="16" y="37" width="40" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="48j-aW-ROn"/>
+                        <constraint firstAttribute="height" constant="24" id="SZy-CY-yPv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="返回">
+                        <color key="titleColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="returnBackMethod:" destination="iN0-l3-epB" eventType="touchUpInside" id="atw-v6-Rvp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QNn-ut-pez" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="37" id="6My-yb-rwO"/>
+                <constraint firstItem="QNn-ut-pez" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="JOR-8S-dJE"/>
+                <constraint firstItem="512-nc-jKV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YbD-4j-kIi"/>
+                <constraint firstAttribute="bottom" secondItem="512-nc-jKV" secondAttribute="bottom" id="bvw-1d-FoT"/>
+                <constraint firstAttribute="trailing" secondItem="512-nc-jKV" secondAttribute="trailing" id="c6m-oB-EZA"/>
+                <constraint firstItem="512-nc-jKV" firstAttribute="top" secondItem="QNn-ut-pez" secondAttribute="bottom" constant="8" id="pzQ-fU-Rm7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="protochlWebView" destination="512-nc-jKV" id="Uv3-2i-q9Q"/>
+                <outlet property="returnBackBtn" destination="QNn-ut-pez" id="h2h-sX-6rU"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

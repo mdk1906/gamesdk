@@ -1,0 +1,6 @@
+framework module TTTracker {
+  umbrella header "TTTracker.h"
+
+  export *
+  module * { export * }
+}

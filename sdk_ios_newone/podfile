@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target 'CB32C0D9EA344A81487C078193134D99_GreenFruitframework’ do
+
+use_frameworks!
+end

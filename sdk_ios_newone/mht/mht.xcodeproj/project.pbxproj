@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D907020822D70ADA00D969BD /* GreenFruitAddversitionViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701EF22D70AD900D969BD /* GreenFruitAddversitionViewBlackCustomControl.xib */; };
+		D907020922D70ADA00D969BD /* GreenFruitAlreadyRealNameCheckViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F022D70AD900D969BD /* GreenFruitAlreadyRealNameCheckViewBlackCustomControl.xib */; };
+		D907020A22D70ADA00D969BD /* GreenFruitTouristUserLoginViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F122D70AD900D969BD /* GreenFruitTouristUserLoginViewBlackCustomControl.xib */; };
+		D907020B22D70ADA00D969BD /* GreenFruitAccountClickSpreadViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F222D70AD900D969BD /* GreenFruitAccountClickSpreadViewBlackCustomControl.xib */; };
+		D907020C22D70ADA00D969BD /* GreenFruitConfirmCodeInputViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F322D70AD900D969BD /* GreenFruitConfirmCodeInputViewBlackCustomControl.xib */; };
+		D907020D22D70ADA00D969BD /* GreenFruitConnectionWithServiceViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F422D70AD900D969BD /* GreenFruitConnectionWithServiceViewBlackCustomControl.xib */; };
+		D907020E22D70ADA00D969BD /* GreenFruitFindPasswordViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F522D70AD900D969BD /* GreenFruitFindPasswordViewBlackCustomControl.xib */; };
+		D907020F22D70ADA00D969BD /* GreenFruitOtherWayLoginBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F622D70AD900D969BD /* GreenFruitOtherWayLoginBlackCustomControl.xib */; };
+		D907021022D70ADA00D969BD /* GreenFruitPhoneLoginGetCodeViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F722D70AD900D969BD /* GreenFruitPhoneLoginGetCodeViewBlackCustomControl.xib */; };
+		D907021122D70ADA00D969BD /* GreenFruitBoundPhoneViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F822D70AD900D969BD /* GreenFruitBoundPhoneViewBlackCustomControl.xib */; };
+		D907021222D70ADA00D969BD /* GreenFruitFastFeelViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701F922D70AD900D969BD /* GreenFruitFastFeelViewBlackCustomControl.xib */; };
+		D907021322D70ADA00D969BD /* GreenFruitRealIdentityCheckViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701FA22D70AD900D969BD /* GreenFruitRealIdentityCheckViewBlackCustomControl.xib */; };
+		D907021422D70ADA00D969BD /* GreenFruitSystemAccountLoginBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701FB22D70AD900D969BD /* GreenFruitSystemAccountLoginBlackCustomControl.xib */; };
+		D907021522D70ADA00D969BD /* GreenFruitFloatSpreadViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701FC22D70AD900D969BD /* GreenFruitFloatSpreadViewBlackCustomControl.xib */; };
+		D907021622D70ADA00D969BD /* GreenFruitModifyBoundPhoneViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701FD22D70AD900D969BD /* GreenFruitModifyBoundPhoneViewBlackCustomControl.xib */; };
+		D907021722D70ADA00D969BD /* GreenFruitSetNewBoundPhoneViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701FE22D70AD900D969BD /* GreenFruitSetNewBoundPhoneViewBlackCustomControl.xib */; };
+		D907021822D70ADA00D969BD /* GreenFruitPhoneHistoryRecordTableViewCellBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90701FF22D70AD900D969BD /* GreenFruitPhoneHistoryRecordTableViewCellBlackCustomControl.xib */; };
+		D907021922D70ADA00D969BD /* GreenFruitSetPasswordViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020022D70AD900D969BD /* GreenFruitSetPasswordViewBlackCustomControl.xib */; };
+		D907021A22D70ADA00D969BD /* GreenFruitUserProtochlViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020122D70AD900D969BD /* GreenFruitUserProtochlViewBlackCustomControl.xib */; };
+		D907021B22D70ADA00D969BD /* GreenFruitModitynewPasswordViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020222D70AD900D969BD /* GreenFruitModitynewPasswordViewBlackCustomControl.xib */; };
+		D907021C22D70ADA00D969BD /* GreenFruitRegistionViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020322D70AD900D969BD /* GreenFruitRegistionViewBlackCustomControl.xib */; };
+		D907021D22D70ADA00D969BD /* GreenFruitPrimaryPhoneCodeCheckViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020422D70AD900D969BD /* GreenFruitPrimaryPhoneCodeCheckViewBlackCustomControl.xib */; };
+		D907021E22D70ADA00D969BD /* XMPayCodeViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020522D70AD900D969BD /* XMPayCodeViewBlackCustomControl.xib */; };
+		D907021F22D70ADA00D969BD /* GreenFruitNewAotuLoginViewBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020622D70ADA00D969BD /* GreenFruitNewAotuLoginViewBlackCustomControl.xib */; };
+		D907022022D70ADA00D969BD /* GreenFruitIdentifyTypeTableViewCellBlackCustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = D907020722D70ADA00D969BD /* GreenFruitIdentifyTypeTableViewCellBlackCustomControl.xib */; };
+		D9488D8222C620A900B1B109 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9488D6822C620A800B1B109 /* Info.plist */; };
+		D9488D9E22C6232D00B1B109 /* Orange个人中心.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488D9A22C6232D00B1B109 /* Orange个人中心.png */; };
+		D9488D9F22C6232D00B1B109 /* Orange账户安全_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488D9B22C6232D00B1B109 /* Orange账户安全_2.png */; };
+		D9488DA022C6232D00B1B109 /* Orange隐藏悬浮球_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488D9C22C6232D00B1B109 /* Orange隐藏悬浮球_2.png */; };
+		D9488DA122C6232D00B1B109 /* Orange注销账号.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488D9D22C6232D00B1B109 /* Orange注销账号.png */; };
+		D9488DA822C6233800B1B109 /* Orangedx.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DA222C6233800B1B109 /* Orangedx.png */; };
+		D9488DA922C6233800B1B109 /* Orangesjh.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DA322C6233800B1B109 /* Orangesjh.png */; };
+		D9488DAA22C6233800B1B109 /* Orangefloat_btn_hide_icon_02_mm.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DA422C6233800B1B109 /* Orangefloat_btn_hide_icon_02_mm.png */; };
+		D9488DAB22C6233800B1B109 /* Orangefloat_btn_hide_icon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DA522C6233800B1B109 /* Orangefloat_btn_hide_icon_02.png */; };
+		D9488DAC22C6233800B1B109 /* Orangezh.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DA622C6233800B1B109 /* Orangezh.png */; };
+		D9488DAD22C6233800B1B109 /* Orangefloat_btn_hide_icon_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DA722C6233800B1B109 /* Orangefloat_btn_hide_icon_01.png */; };
+		D9488DC222C6234D00B1B109 /* Orangephonelogin.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DAE22C6234C00B1B109 /* Orangephonelogin.png */; };
+		D9488DC322C6234D00B1B109 /* Orangeclose_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DAF22C6234C00B1B109 /* Orangeclose_2.png */; };
+		D9488DC422C6234D00B1B109 /* Orange闭眼睛_2.0.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB022C6234C00B1B109 /* Orange闭眼睛_2.0.png */; };
+		D9488DC522C6234D00B1B109 /* Orange下拉_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB122C6234C00B1B109 /* Orange下拉_2.png */; };
+		D9488DC622C6234D00B1B109 /* Orange上拉_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB222C6234D00B1B109 /* Orange上拉_2.png */; };
+		D9488DC722C6234D00B1B109 /* Orangeregistaccount.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB322C6234D00B1B109 /* Orangeregistaccount.png */; };
+		D9488DC822C6234D00B1B109 /* Orangezhanghao.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB422C6234D00B1B109 /* Orangezhanghao.png */; };
+		D9488DC922C6234D00B1B109 /* Orange椭圆_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB522C6234D00B1B109 /* Orange椭圆_2.png */; };
+		D9488DCA22C6234D00B1B109 /* OrangesystomAccout.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB622C6234D00B1B109 /* OrangesystomAccout.png */; };
+		D9488DCB22C6234D00B1B109 /* Orangelogo_English.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB722C6234D00B1B109 /* Orangelogo_English.png */; };
+		D9488DCC22C6234D00B1B109 /* Orangetuijian.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB822C6234D00B1B109 /* Orangetuijian.png */; };
+		D9488DCD22C6234D00B1B109 /* Orange关闭_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DB922C6234D00B1B109 /* Orange关闭_2.png */; };
+		D9488DCE22C6234D00B1B109 /* Orange闭眼睛_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DBA22C6234D00B1B109 /* Orange闭眼睛_2.png */; };
+		D9488DCF22C6234D00B1B109 /* Orangefastfeel.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DBB22C6234D00B1B109 /* Orangefastfeel.png */; };
+		D9488DD022C6234D00B1B109 /* Orangefindpassword.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DBC22C6234D00B1B109 /* Orangefindpassword.png */; };
+		D9488DD122C6234D00B1B109 /* Orangelogo_Chinese.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DBD22C6234D00B1B109 /* Orangelogo_Chinese.png */; };
+		D9488DD222C6234D00B1B109 /* Orange返回_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DBE22C6234D00B1B109 /* Orange返回_2.png */; };
+		D9488DD322C6234D00B1B109 /* Orangebtnkuang.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DBF22C6234D00B1B109 /* Orangebtnkuang.png */; };
+		D9488DD422C6234D00B1B109 /* Orange已勾选_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DC022C6234D00B1B109 /* Orange已勾选_2.png */; };
+		D9488DD522C6234D00B1B109 /* Orangepassword.png in Resources */ = {isa = PBXBuildFile; fileRef = D9488DC122C6234D00B1B109 /* Orangepassword.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31BDBFA3205CD02500204055 /* mht.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mht.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90701EF22D70AD900D969BD /* GreenFruitAddversitionViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitAddversitionViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F022D70AD900D969BD /* GreenFruitAlreadyRealNameCheckViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitAlreadyRealNameCheckViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F122D70AD900D969BD /* GreenFruitTouristUserLoginViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitTouristUserLoginViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F222D70AD900D969BD /* GreenFruitAccountClickSpreadViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitAccountClickSpreadViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F322D70AD900D969BD /* GreenFruitConfirmCodeInputViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitConfirmCodeInputViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F422D70AD900D969BD /* GreenFruitConnectionWithServiceViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitConnectionWithServiceViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F522D70AD900D969BD /* GreenFruitFindPasswordViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitFindPasswordViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F622D70AD900D969BD /* GreenFruitOtherWayLoginBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitOtherWayLoginBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F722D70AD900D969BD /* GreenFruitPhoneLoginGetCodeViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitPhoneLoginGetCodeViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F822D70AD900D969BD /* GreenFruitBoundPhoneViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitBoundPhoneViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701F922D70AD900D969BD /* GreenFruitFastFeelViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitFastFeelViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701FA22D70AD900D969BD /* GreenFruitRealIdentityCheckViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitRealIdentityCheckViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701FB22D70AD900D969BD /* GreenFruitSystemAccountLoginBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitSystemAccountLoginBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701FC22D70AD900D969BD /* GreenFruitFloatSpreadViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitFloatSpreadViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701FD22D70AD900D969BD /* GreenFruitModifyBoundPhoneViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitModifyBoundPhoneViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701FE22D70AD900D969BD /* GreenFruitSetNewBoundPhoneViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitSetNewBoundPhoneViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D90701FF22D70AD900D969BD /* GreenFruitPhoneHistoryRecordTableViewCellBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitPhoneHistoryRecordTableViewCellBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020022D70AD900D969BD /* GreenFruitSetPasswordViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitSetPasswordViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020122D70AD900D969BD /* GreenFruitUserProtochlViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitUserProtochlViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020222D70AD900D969BD /* GreenFruitModitynewPasswordViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitModitynewPasswordViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020322D70AD900D969BD /* GreenFruitRegistionViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitRegistionViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020422D70AD900D969BD /* GreenFruitPrimaryPhoneCodeCheckViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitPrimaryPhoneCodeCheckViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020522D70AD900D969BD /* XMPayCodeViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMPayCodeViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020622D70ADA00D969BD /* GreenFruitNewAotuLoginViewBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitNewAotuLoginViewBlackCustomControl.xib; sourceTree = "<group>"; };
+		D907020722D70ADA00D969BD /* GreenFruitIdentifyTypeTableViewCellBlackCustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenFruitIdentifyTypeTableViewCellBlackCustomControl.xib; sourceTree = "<group>"; };
+		D9488D6822C620A800B1B109 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9488D9A22C6232D00B1B109 /* Orange个人中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange个人中心.png"; sourceTree = "<group>"; };
+		D9488D9B22C6232D00B1B109 /* Orange账户安全_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange账户安全_2.png"; sourceTree = "<group>"; };
+		D9488D9C22C6232D00B1B109 /* Orange隐藏悬浮球_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange隐藏悬浮球_2.png"; sourceTree = "<group>"; };
+		D9488D9D22C6232D00B1B109 /* Orange注销账号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange注销账号.png"; sourceTree = "<group>"; };
+		D9488DA222C6233800B1B109 /* Orangedx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangedx.png; sourceTree = "<group>"; };
+		D9488DA322C6233800B1B109 /* Orangesjh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangesjh.png; sourceTree = "<group>"; };
+		D9488DA422C6233800B1B109 /* Orangefloat_btn_hide_icon_02_mm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangefloat_btn_hide_icon_02_mm.png; sourceTree = "<group>"; };
+		D9488DA522C6233800B1B109 /* Orangefloat_btn_hide_icon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangefloat_btn_hide_icon_02.png; sourceTree = "<group>"; };
+		D9488DA622C6233800B1B109 /* Orangezh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangezh.png; sourceTree = "<group>"; };
+		D9488DA722C6233800B1B109 /* Orangefloat_btn_hide_icon_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangefloat_btn_hide_icon_01.png; sourceTree = "<group>"; };
+		D9488DAE22C6234C00B1B109 /* Orangephonelogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangephonelogin.png; sourceTree = "<group>"; };
+		D9488DAF22C6234C00B1B109 /* Orangeclose_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangeclose_2.png; sourceTree = "<group>"; };
+		D9488DB022C6234C00B1B109 /* Orange闭眼睛_2.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange闭眼睛_2.0.png"; sourceTree = "<group>"; };
+		D9488DB122C6234C00B1B109 /* Orange下拉_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange下拉_2.png"; sourceTree = "<group>"; };
+		D9488DB222C6234D00B1B109 /* Orange上拉_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange上拉_2.png"; sourceTree = "<group>"; };
+		D9488DB322C6234D00B1B109 /* Orangeregistaccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangeregistaccount.png; sourceTree = "<group>"; };
+		D9488DB422C6234D00B1B109 /* Orangezhanghao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangezhanghao.png; sourceTree = "<group>"; };
+		D9488DB522C6234D00B1B109 /* Orange椭圆_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange椭圆_2.png"; sourceTree = "<group>"; };
+		D9488DB622C6234D00B1B109 /* OrangesystomAccout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangesystomAccout.png; sourceTree = "<group>"; };
+		D9488DB722C6234D00B1B109 /* Orangelogo_English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangelogo_English.png; sourceTree = "<group>"; };
+		D9488DB822C6234D00B1B109 /* Orangetuijian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangetuijian.png; sourceTree = "<group>"; };
+		D9488DB922C6234D00B1B109 /* Orange关闭_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange关闭_2.png"; sourceTree = "<group>"; };
+		D9488DBA22C6234D00B1B109 /* Orange闭眼睛_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange闭眼睛_2.png"; sourceTree = "<group>"; };
+		D9488DBB22C6234D00B1B109 /* Orangefastfeel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangefastfeel.png; sourceTree = "<group>"; };
+		D9488DBC22C6234D00B1B109 /* Orangefindpassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangefindpassword.png; sourceTree = "<group>"; };
+		D9488DBD22C6234D00B1B109 /* Orangelogo_Chinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangelogo_Chinese.png; sourceTree = "<group>"; };
+		D9488DBE22C6234D00B1B109 /* Orange返回_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange返回_2.png"; sourceTree = "<group>"; };
+		D9488DBF22C6234D00B1B109 /* Orangebtnkuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangebtnkuang.png; sourceTree = "<group>"; };
+		D9488DC022C6234D00B1B109 /* Orange已勾选_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange已勾选_2.png"; sourceTree = "<group>"; };
+		D9488DC122C6234D00B1B109 /* Orangepassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orangepassword.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BDBFA0205CD02500204055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BDBF9A205CD02500204055 = {
+			isa = PBXGroup;
+			children = (
+				31BDBFA5205CD02500204055 /* mht */,
+				31BDBFA4205CD02500204055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BDBFA4205CD02500204055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BDBFA3205CD02500204055 /* mht.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BDBFA5205CD02500204055 /* mht */ = {
+			isa = PBXGroup;
+			children = (
+				D90701F222D70AD900D969BD /* GreenFruitAccountClickSpreadViewBlackCustomControl.xib */,
+				D90701EF22D70AD900D969BD /* GreenFruitAddversitionViewBlackCustomControl.xib */,
+				D90701F022D70AD900D969BD /* GreenFruitAlreadyRealNameCheckViewBlackCustomControl.xib */,
+				D90701F822D70AD900D969BD /* GreenFruitBoundPhoneViewBlackCustomControl.xib */,
+				D90701F322D70AD900D969BD /* GreenFruitConfirmCodeInputViewBlackCustomControl.xib */,
+				D90701F422D70AD900D969BD /* GreenFruitConnectionWithServiceViewBlackCustomControl.xib */,
+				D90701F922D70AD900D969BD /* GreenFruitFastFeelViewBlackCustomControl.xib */,
+				D90701F522D70AD900D969BD /* GreenFruitFindPasswordViewBlackCustomControl.xib */,
+				D90701FC22D70AD900D969BD /* GreenFruitFloatSpreadViewBlackCustomControl.xib */,
+				D907020722D70ADA00D969BD /* GreenFruitIdentifyTypeTableViewCellBlackCustomControl.xib */,
+				D90701FD22D70AD900D969BD /* GreenFruitModifyBoundPhoneViewBlackCustomControl.xib */,
+				D907020222D70AD900D969BD /* GreenFruitModitynewPasswordViewBlackCustomControl.xib */,
+				D907020622D70ADA00D969BD /* GreenFruitNewAotuLoginViewBlackCustomControl.xib */,
+				D90701F622D70AD900D969BD /* GreenFruitOtherWayLoginBlackCustomControl.xib */,
+				D90701FF22D70AD900D969BD /* GreenFruitPhoneHistoryRecordTableViewCellBlackCustomControl.xib */,
+				D90701F722D70AD900D969BD /* GreenFruitPhoneLoginGetCodeViewBlackCustomControl.xib */,
+				D907020422D70AD900D969BD /* GreenFruitPrimaryPhoneCodeCheckViewBlackCustomControl.xib */,
+				D90701FA22D70AD900D969BD /* GreenFruitRealIdentityCheckViewBlackCustomControl.xib */,
+				D907020322D70AD900D969BD /* GreenFruitRegistionViewBlackCustomControl.xib */,
+				D90701FE22D70AD900D969BD /* GreenFruitSetNewBoundPhoneViewBlackCustomControl.xib */,
+				D907020022D70AD900D969BD /* GreenFruitSetPasswordViewBlackCustomControl.xib */,
+				D90701FB22D70AD900D969BD /* GreenFruitSystemAccountLoginBlackCustomControl.xib */,
+				D90701F122D70AD900D969BD /* GreenFruitTouristUserLoginViewBlackCustomControl.xib */,
+				D907020122D70AD900D969BD /* GreenFruitUserProtochlViewBlackCustomControl.xib */,
+				D907020522D70AD900D969BD /* XMPayCodeViewBlackCustomControl.xib */,
+				31BDBFB0205CD07800204055 /* Resource */,
+				D9488D6822C620A800B1B109 /* Info.plist */,
+			);
+			path = mht;
+			sourceTree = "<group>";
+		};
+		31BDBFB0205CD07800204055 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D937A04922C3255B00C187A6 /* V1.0 */,
+				D937A05022C3255B00C187A6 /* V2.0 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D937A04922C3255B00C187A6 /* V1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D9488DA222C6233800B1B109 /* Orangedx.png */,
+				D9488DA722C6233800B1B109 /* Orangefloat_btn_hide_icon_01.png */,
+				D9488DA422C6233800B1B109 /* Orangefloat_btn_hide_icon_02_mm.png */,
+				D9488DA522C6233800B1B109 /* Orangefloat_btn_hide_icon_02.png */,
+				D9488DA322C6233800B1B109 /* Orangesjh.png */,
+				D9488DA622C6233800B1B109 /* Orangezh.png */,
+			);
+			path = V1.0;
+			sourceTree = "<group>";
+		};
+		D937A05022C3255B00C187A6 /* V2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D937A05122C3255B00C187A6 /* 悬浮球 */,
+				D937A05622C3255B00C187A6 /* 清晰版 */,
+			);
+			path = V2.0;
+			sourceTree = "<group>";
+		};
+		D937A05122C3255B00C187A6 /* 悬浮球 */ = {
+			isa = PBXGroup;
+			children = (
+				D9488D9A22C6232D00B1B109 /* Orange个人中心.png */,
+				D9488D9C22C6232D00B1B109 /* Orange隐藏悬浮球_2.png */,
+				D9488D9B22C6232D00B1B109 /* Orange账户安全_2.png */,
+				D9488D9D22C6232D00B1B109 /* Orange注销账号.png */,
+			);
+			path = "悬浮球";
+			sourceTree = "<group>";
+		};
+		D937A05622C3255B00C187A6 /* 清晰版 */ = {
+			isa = PBXGroup;
+			children = (
+				D9488DB022C6234C00B1B109 /* Orange闭眼睛_2.0.png */,
+				D9488DBA22C6234D00B1B109 /* Orange闭眼睛_2.png */,
+				D9488DBE22C6234D00B1B109 /* Orange返回_2.png */,
+				D9488DB922C6234D00B1B109 /* Orange关闭_2.png */,
+				D9488DB222C6234D00B1B109 /* Orange上拉_2.png */,
+				D9488DB522C6234D00B1B109 /* Orange椭圆_2.png */,
+				D9488DB122C6234C00B1B109 /* Orange下拉_2.png */,
+				D9488DC022C6234D00B1B109 /* Orange已勾选_2.png */,
+				D9488DBF22C6234D00B1B109 /* Orangebtnkuang.png */,
+				D9488DAF22C6234C00B1B109 /* Orangeclose_2.png */,
+				D9488DBB22C6234D00B1B109 /* Orangefastfeel.png */,
+				D9488DBC22C6234D00B1B109 /* Orangefindpassword.png */,
+				D9488DBD22C6234D00B1B109 /* Orangelogo_Chinese.png */,
+				D9488DB722C6234D00B1B109 /* Orangelogo_English.png */,
+				D9488DC122C6234D00B1B109 /* Orangepassword.png */,
+				D9488DAE22C6234C00B1B109 /* Orangephonelogin.png */,
+				D9488DB322C6234D00B1B109 /* Orangeregistaccount.png */,
+				D9488DB622C6234D00B1B109 /* OrangesystomAccout.png */,
+				D9488DB822C6234D00B1B109 /* Orangetuijian.png */,
+				D9488DB422C6234D00B1B109 /* Orangezhanghao.png */,
+			);
+			path = "清晰版";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BDBFA2205CD02500204055 /* mht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BDBFA9205CD02600204055 /* Build configuration list for PBXNativeTarget "mht" */;
+			buildPhases = (
+				31BDBF9F205CD02500204055 /* Sources */,
+				31BDBFA0205CD02500204055 /* Frameworks */,
+				31BDBFA1205CD02500204055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mht;
+			productName = mht;
+			productReference = 31BDBFA3205CD02500204055 /* mht.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BDBF9B205CD02500204055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = gang;
+				TargetAttributes = {
+					31BDBFA2205CD02500204055 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31BDBF9E205CD02500204055 /* Build configuration list for PBXProject "mht" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31BDBF9A205CD02500204055;
+			productRefGroup = 31BDBFA4205CD02500204055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BDBFA2205CD02500204055 /* mht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BDBFA1205CD02500204055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9488DD022C6234D00B1B109 /* Orangefindpassword.png in Resources */,
+				D9488D8222C620A900B1B109 /* Info.plist in Resources */,
+				D907021422D70ADA00D969BD /* GreenFruitSystemAccountLoginBlackCustomControl.xib in Resources */,
+				D9488DA922C6233800B1B109 /* Orangesjh.png in Resources */,
+				D9488DCB22C6234D00B1B109 /* Orangelogo_English.png in Resources */,
+				D907021C22D70ADA00D969BD /* GreenFruitRegistionViewBlackCustomControl.xib in Resources */,
+				D907021F22D70ADA00D969BD /* GreenFruitNewAotuLoginViewBlackCustomControl.xib in Resources */,
+				D9488DA022C6232D00B1B109 /* Orange隐藏悬浮球_2.png in Resources */,
+				D9488DCA22C6234D00B1B109 /* OrangesystomAccout.png in Resources */,
+				D907020922D70ADA00D969BD /* GreenFruitAlreadyRealNameCheckViewBlackCustomControl.xib in Resources */,
+				D9488DD122C6234D00B1B109 /* Orangelogo_Chinese.png in Resources */,
+				D907020B22D70ADA00D969BD /* GreenFruitAccountClickSpreadViewBlackCustomControl.xib in Resources */,
+				D907020F22D70ADA00D969BD /* GreenFruitOtherWayLoginBlackCustomControl.xib in Resources */,
+				D9488DD422C6234D00B1B109 /* Orange已勾选_2.png in Resources */,
+				D907021922D70ADA00D969BD /* GreenFruitSetPasswordViewBlackCustomControl.xib in Resources */,
+				D9488DC322C6234D00B1B109 /* Orangeclose_2.png in Resources */,
+				D9488DC722C6234D00B1B109 /* Orangeregistaccount.png in Resources */,
+				D9488DCD22C6234D00B1B109 /* Orange关闭_2.png in Resources */,
+				D907021222D70ADA00D969BD /* GreenFruitFastFeelViewBlackCustomControl.xib in Resources */,
+				D907020C22D70ADA00D969BD /* GreenFruitConfirmCodeInputViewBlackCustomControl.xib in Resources */,
+				D9488DD322C6234D00B1B109 /* Orangebtnkuang.png in Resources */,
+				D9488DAB22C6233800B1B109 /* Orangefloat_btn_hide_icon_02.png in Resources */,
+				D9488DAC22C6233800B1B109 /* Orangezh.png in Resources */,
+				D907021622D70ADA00D969BD /* GreenFruitModifyBoundPhoneViewBlackCustomControl.xib in Resources */,
+				D9488DAD22C6233800B1B109 /* Orangefloat_btn_hide_icon_01.png in Resources */,
+				D907021022D70ADA00D969BD /* GreenFruitPhoneLoginGetCodeViewBlackCustomControl.xib in Resources */,
+				D9488DA822C6233800B1B109 /* Orangedx.png in Resources */,
+				D9488D9E22C6232D00B1B109 /* Orange个人中心.png in Resources */,
+				D9488DC522C6234D00B1B109 /* Orange下拉_2.png in Resources */,
+				D9488DC422C6234D00B1B109 /* Orange闭眼睛_2.0.png in Resources */,
+				D907021522D70ADA00D969BD /* GreenFruitFloatSpreadViewBlackCustomControl.xib in Resources */,
+				D907022022D70ADA00D969BD /* GreenFruitIdentifyTypeTableViewCellBlackCustomControl.xib in Resources */,
+				D907020E22D70ADA00D969BD /* GreenFruitFindPasswordViewBlackCustomControl.xib in Resources */,
+				D9488DD522C6234D00B1B109 /* Orangepassword.png in Resources */,
+				D9488DC922C6234D00B1B109 /* Orange椭圆_2.png in Resources */,
+				D907021122D70ADA00D969BD /* GreenFruitBoundPhoneViewBlackCustomControl.xib in Resources */,
+				D907020A22D70ADA00D969BD /* GreenFruitTouristUserLoginViewBlackCustomControl.xib in Resources */,
+				D907021A22D70ADA00D969BD /* GreenFruitUserProtochlViewBlackCustomControl.xib in Resources */,
+				D907020D22D70ADA00D969BD /* GreenFruitConnectionWithServiceViewBlackCustomControl.xib in Resources */,
+				D907021822D70ADA00D969BD /* GreenFruitPhoneHistoryRecordTableViewCellBlackCustomControl.xib in Resources */,
+				D9488DCC22C6234D00B1B109 /* Orangetuijian.png in Resources */,
+				D907021D22D70ADA00D969BD /* GreenFruitPrimaryPhoneCodeCheckViewBlackCustomControl.xib in Resources */,
+				D9488DC822C6234D00B1B109 /* Orangezhanghao.png in Resources */,
+				D9488DAA22C6233800B1B109 /* Orangefloat_btn_hide_icon_02_mm.png in Resources */,
+				D9488DD222C6234D00B1B109 /* Orange返回_2.png in Resources */,
+				D9488DA122C6232D00B1B109 /* Orange注销账号.png in Resources */,
+				D907021B22D70ADA00D969BD /* GreenFruitModitynewPasswordViewBlackCustomControl.xib in Resources */,
+				D9488D9F22C6232D00B1B109 /* Orange账户安全_2.png in Resources */,
+				D9488DC622C6234D00B1B109 /* Orange上拉_2.png in Resources */,
+				D907021322D70ADA00D969BD /* GreenFruitRealIdentityCheckViewBlackCustomControl.xib in Resources */,
+				D907020822D70ADA00D969BD /* GreenFruitAddversitionViewBlackCustomControl.xib in Resources */,
+				D9488DCF22C6234D00B1B109 /* Orangefastfeel.png in Resources */,
+				D907021E22D70ADA00D969BD /* XMPayCodeViewBlackCustomControl.xib in Resources */,
+				D907021722D70ADA00D969BD /* GreenFruitSetNewBoundPhoneViewBlackCustomControl.xib in Resources */,
+				D9488DC222C6234D00B1B109 /* Orangephonelogin.png in Resources */,
+				D9488DCE22C6234D00B1B109 /* Orange闭眼睛_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BDBF9F205CD02500204055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31BDBFA7205CD02600204055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31BDBFA8205CD02600204055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31BDBFAA205CD02600204055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = G34YZNY7Z2;
+				INFOPLIST_FILE = mht/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mht.mht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		31BDBFAB205CD02600204055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = G34YZNY7Z2;
+				INFOPLIST_FILE = mht/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mht.mht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BDBF9E205CD02500204055 /* Build configuration list for PBXProject "mht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BDBFA7205CD02600204055 /* Debug */,
+				31BDBFA8205CD02600204055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BDBFA9205CD02600204055 /* Build configuration list for PBXNativeTarget "mht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BDBFAA205CD02600204055 /* Debug */,
+				31BDBFAB205CD02600204055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31BDBF9B205CD02500204055 /* Project object */;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<br/>
+<br/>
+<div>
+    <a href="javascript:;" class="pay-cancel-btn" id="backa">返回</a>
+</div>
+<br/>
+<br/>
+<div>
+    <h4>回调结果:</h4>
+    <span id="result"></span>
+</div>
+</body>
+<script>
+    
+        function callback(something){
+            var target = document.getElementById('result');
+            target.innerHTML = something;
+        }
+
+        function goBackGame (num){  
+    		var tmp = arguments.callee.toString();  
+    		var re = /function\s*(\w*)/ig;  
+   			var matches = re.exec(tmp); //正则原因只能获取一个，获取多个需循环获取 函数形式 function xxx()   
+    		alert(matches[1]); 
+		}  
+		document.getElementById("backa").onclick = function(){
+			$.sdk.goBackGame();
+
+		};
+
+</script>
+</html>
